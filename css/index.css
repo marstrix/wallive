@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa%3Ai%2Cbi%2C700%2C400%7CPacifico%3Ai%2Cbi%2C700%2C400&amp;display=swap");
+
+body {
+    background: #24344c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header,
+.footer,
+.content {
+    width: 75%;
+    height: 160px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.content {
+    height: auto;
+}
+
+.title,
+.message,
+.download {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.message {
+    height: 180px;
+    line-height: 32px;
+}
+
+.title span,
+.message span,
+.download a {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.title span {
+    color: #fff;
+    font-family: Pacifico, Arial;
+    font-size: 56pt;
+    font-weight: 700;
+}
+
+.message span,
+.download a {
+    color: #ccc;
+    font-family: Comfortaa, Arial;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+.download span {
+    background: none;
+    color: #ccc;
+    padding: 12px 32px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Comfortaa, Arial;
+    font-weight: 400;
+    display: block;
+}
+
+.download span:hover {
+    color: #d8b43e;
+    border-color: #d8b43e;
+}
